@@ -1,0 +1,23 @@
+!!! 5
+%html{ :lang => "ja" }
+  %head
+    %title iReblog
+
+    %meta{ :charset => "UTF-8" }
+    %meta{ :name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" }
+    %meta{ :name => "apple-mobile-web-app-capable", :content => "yes" }
+
+    %link{ :rel => "apple-touch-icon", :href => "images/icon.png" }
+    %link{ :rel => "icon",             :href => "images/favicon.png" }
+
+    %link{ :rel => "stylesheet", :href => "stylesheets/basic.css",    :type => "text/css", :media => "screen" }
+    %link{ :rel => "stylesheet", :href => "stylesheets/advanced.css", :type => "text/css", :media => "screen and (min-device-width:481px)" }
+    %link{ :rel => "stylesheet", :href => "stylesheets/mobile.css",   :type => "text/css", :media => "only screen and (max-device-width:480px)" }
+
+    %script{ :src => "javascripts/jquery-1.4.2.min.js" }
+    %script{ :src => "javascripts/ireblog.js" }
+  %body
+    #status
+      %img#loading{ :src => "images/loading.gif", :alt => "loading..." }
+    %ul#posts
+      %li{ :style => "display: none;" } Reblog or Not.

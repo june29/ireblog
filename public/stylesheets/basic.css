@@ -1,0 +1,138 @@
+body {
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 17px;
+  background-color: #334667;
+  padding: 10px;
+}
+
+a {
+  color: #000;
+}
+
+p, blockquote {
+  margin: 10px 0px;
+}
+
+blockquote {
+  border-left: solid 3px #ddd;
+  margin-left: 5px;
+  margin-right: 0px;
+  padding-left: 15px;
+}
+
+a.author {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4d6da0;
+}
+
+a.permalink {
+  display: none;
+}
+
+#status {
+  text-align: center;
+}
+
+.post_info {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  position: relative;
+}
+
+.films {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.film {
+  float: left;
+  width: 50%;
+}
+
+img.reblog {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img.pass {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+ul#posts {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li.post {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.standby .post_info > img, .standby .films {
+  display: none;
+}
+
+li.post: first-child {
+  margin-top: 0px;
+  border-width: 0px;
+}
+
+li.post p: last-child {
+  margin-bottom: 0px;
+}
+
+li.post img.control_arrow {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 29px;
+  height: 29px;
+}
+
+li.post.controls {
+  background-color: #383d46;
+  border: solid 2px #32363d;
+  overflow: visible !important;
+  padding: 20px;
+}
+
+img.photo {
+  background-color: #ddd;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.link, .title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.source {
+  margin-top: 5px;
+}
+
+.quote p: first-child, .quote p: last-child {
+  display: inline;
+}
+
+.source p: first-child {
+  display: inline;
+}

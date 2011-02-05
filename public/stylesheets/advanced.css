@@ -1,0 +1,10 @@
+ul#posts {
+  width: 435px;
+  list-style-type: none;
+  padding: 0px;
+  margin: auto;
+}
+
+.standby {
+  opacity: 0.2;
+}
