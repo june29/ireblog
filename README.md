@@ -1,6 +1,8 @@
 # iReblog
 
-**Reblog or Not.** [iReblog](http://ireblog.heroku.com/ "iReblog")
+[iReblog](http://ireblog.heroku.com/ "iReblog")
+
+**Reblog or Not.**
 
 ## What's iReblog?
 
